@@ -1,11 +1,11 @@
 # URL Shortener mit C#, Azure Functions und GitHub Actions
 
-Im Livestream von [entwickler.me auf Twitch](http://www.twitch.tv/entwickler.me) wird ein URL Shortener Service entwickelt.
+Im Livestream von [entwickler.me auf Twitch](http://www.twitch.tv/entwicklerme) wird ein URL Shortener Service entwickelt.
 Ideen und Anmerkungen können gerne über ein [Issue](https://github.com/entwicklerMe/tw-az-url-shortener-with-csharp/issues) hinzugefügt werden. 
 
 Offene Tasks: 
 
-![GitHub issues](https://img.shields.io/github/issues/entwicklerme/tw-az-url-shortener-with-csharp)
+[![GitHub issues](https://img.shields.io/github/issues/entwicklerme/tw-az-url-shortener-with-csharp)](https://github.com/entwicklerMe/tw-az-url-shortener-with-csharp/issues)
 
 ## Eingesetzte Technologie
 
