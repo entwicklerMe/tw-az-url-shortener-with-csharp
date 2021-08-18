@@ -1,6 +1,8 @@
 using System;
 using System.IO;
+using System.Net.Http;
 using System.Threading.Tasks;
+using EW.URLShortener.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
@@ -11,14 +13,17 @@ using Newtonsoft.Json;
 
 namespace EW.URLShortener
 {
-    public static class ShortURL
+    public static class URLShortenerService
     {
         [FunctionName("ShortURL")]
         public static async Task<IActionResult> CreateShortURL(
             [HttpTrigger(AuthorizationLevel.Function, "post", Route = "shorturl")]
-            HttpRequest req, ILogger log)
+            HttpRequestMessage req, ILogger log)
         {
-            return new OkResult();
+            var requestBody = await req.Content.ReadAsStringAsync();
+            var longUrl = JsonConvert.DeserializeObject<LongUrl>(requestBody);
+
+            return new OkObjectResult(longUrl);
         }
     }
 }
