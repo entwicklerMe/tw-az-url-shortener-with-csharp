@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/Users/smessingfeld/Library/Caches/JetBrains/Rider2021.1/resharper-host/temp/Rider/vAny/CoverageData/_EW.URLShortener.-782946616/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=972a58a6_002D6bcd_002D4a2b_002D95cd_002D53d609043822/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UrlShortenerTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::F52AC193-59F4-4F64-9305-B9234AD681ED::.NETCoreApp,Version=v3.1::EW.URLShortenerTests.UrlShortenerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d33dbb71_002D90da_002D4007_002D9f74_002Defb240109bd3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestEmptyResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::F52AC193-59F4-4F64-9305-B9234AD681ED::.NETCoreApp,Version=v3.1::EW.URLShortenerTests.UrlShortenerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
